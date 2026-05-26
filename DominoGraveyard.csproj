@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".git\COMMIT_EDITMSG" />
+      <Content Include=".git\config" />
+      <Content Include=".git\description" />
+      <Content Include=".git\HEAD" />
+      <Content Include=".git\hooks\applypatch-msg.sample" />
+      <Content Include=".git\hooks\commit-msg.sample" />
+      <Content Include=".git\hooks\fsmonitor-watchman.sample" />
+      <Content Include=".git\hooks\post-update.sample" />
+      <Content Include=".git\hooks\pre-applypatch.sample" />
+      <Content Include=".git\hooks\pre-commit.sample" />
+      <Content Include=".git\hooks\pre-merge-commit.sample" />
+      <Content Include=".git\hooks\pre-push.sample" />
+      <Content Include=".git\hooks\pre-rebase.sample" />
+      <Content Include=".git\hooks\pre-receive.sample" />
+      <Content Include=".git\hooks\prepare-commit-msg.sample" />
+      <Content Include=".git\hooks\push-to-checkout.sample" />
+      <Content Include=".git\hooks\sendemail-validate.sample" />
+      <Content Include=".git\hooks\update.sample" />
+      <Content Include=".git\index" />
+      <Content Include=".git\info\exclude" />
+      <Content Include=".git\logs\HEAD" />
+      <Content Include=".git\logs\refs\heads\main" />
+      <Content Include=".git\logs\refs\remotes\origin\HEAD" />
+      <Content Include=".git\logs\refs\remotes\origin\main" />
+      <Content Include=".git\objects\00\68664ab089b52965186111ec0d2162795e6aad" />
+      <Content Include=".git\objects\00\b34bc59a6c6e5acea451887cf453cf05073e1c" />
+      <Content Include=".git\objects\27\611cfcccee3765b18e612b5fa7684267de4445" />
+      <Content Include=".git\objects\31\b69900e6aee1f815d30734c2b3df8e3622ec1c" />
+      <Content Include=".git\objects\36\8c74d8e320f322d0404af284300aa990d5aa85" />
+      <Content Include=".git\objects\44\72c169a458b19bb151c6ae2abd04913f2086d9" />
+      <Content Include=".git\objects\45\cb7b3d06bc814c9d32d15382581a54e84977bd" />
+      <Content Include=".git\objects\52\e262ef5e462dd9c486eb31dee364fcc2c51eb4" />
+      <Content Include=".git\objects\57\4c62187dad2ec90f45f68ad3b9deb2897ca3ec" />
+      <Content Include=".git\objects\5a\635d79741b174ff4bf037311e4de1030a16419" />
+      <Content Include=".git\objects\6c\403d9874b0aade67438e40cd80570892471c9a" />
+      <Content Include=".git\objects\6f\78a94a2f3c569e7cffa01056fb044690e8dbb7" />
+      <Content Include=".git\objects\72\22ef74dc91418a61415f260a2077aa5c424704" />
+      <Content Include=".git\objects\75\cd65a46c948e90aacbfd3dc561bdbc0998d48e" />
+      <Content Include=".git\objects\92\5b1351bcda9f1244c4634843cb5f994a6b5008" />
+      <Content Include=".git\objects\a5\20f3315a480d72fd928d51e10e2cd157512369" />
+      <Content Include=".git\objects\ac\9427e8beb3e37a55924cbe5728cb2cf9b6f79f" />
+      <Content Include=".git\objects\b8\9b522a151f799258d27cabe0aca6d21df36213" />
+      <Content Include=".git\objects\c8\f856b25d22137605bedc16bec6c019f559d110" />
+      <Content Include=".git\objects\e1\6fd69a4ea6bd60f731f9883827cbb48ccde724" />
+      <Content Include=".git\objects\e4\c5bc190593e658d12f1e51e1bc9e2e16949ef1" />
+      <Content Include=".git\objects\ea\0f0431c4ec6358fee1aebea333640279f2b399" />
+      <Content Include=".git\objects\f2\25478092265262a1d70cc60d7ab7fa8d513a3b" />
+      <Content Include=".git\objects\f2\3a21d8e87f8bc289a2696c72fc46d1b24c6fbf" />
+      <Content Include=".git\objects\pack\pack-f925f68f90c75ff0579aad8b2f22e2aa6da53819.idx" />
+      <Content Include=".git\objects\pack\pack-f925f68f90c75ff0579aad8b2f22e2aa6da53819.pack" />
+      <Content Include=".git\objects\pack\pack-f925f68f90c75ff0579aad8b2f22e2aa6da53819.rev" />
+      <Content Include=".git\packed-refs" />
+      <Content Include=".git\refs\heads\main" />
+      <Content Include=".git\refs\remotes\origin\HEAD" />
+      <Content Include=".git\refs\remotes\origin\main" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include=".git\branches\" />
+      <Folder Include=".git\objects\info\" />
+      <Folder Include=".git\refs\tags\" />
+    </ItemGroup>
+
+</Project>
